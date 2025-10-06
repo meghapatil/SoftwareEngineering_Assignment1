@@ -1,0 +1,1 @@
+web: gunicorn SEassignment1.wsgi
