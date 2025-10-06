@@ -29,9 +29,9 @@ It is deployed on **AWS Elastic Beanstalk** with **SQLite** as the backend datab
 ```bash
 python3 -m venv myenv
 source myenv/bin/activate
-
+---
 2. **Install dependencies**
-
+```bash
 pip install -r requirements.txt
 
 3. **Run migrations and start the server**
