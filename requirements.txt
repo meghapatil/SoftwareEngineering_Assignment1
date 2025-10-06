@@ -1,5 +1,5 @@
-certifi==2025.8.3
-cffi==2.0.0
-cryptography==46.0.2
-pycparser==2.23
-wheel==0.45.1
+asgiref==3.9.2
+Django==5.2.7
+gunicorn==23.0.0
+packaging==25.0
+sqlparse==0.5.3
