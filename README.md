@@ -29,12 +29,12 @@ It is deployed on **AWS Elastic Beanstalk** with **SQLite** as the backend datab
 ```bash
 python3 -m venv myenv
 source myenv/bin/activate
-exit
+```bash
 
 2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
-exit
+```bash
 
 3. **Run migrations and start the server**
 
