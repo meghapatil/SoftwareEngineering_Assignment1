@@ -1,7 +1,7 @@
 # Polls App
 
 [![Build Status](https://app.travis-ci.com/meghapatil/SoftwareEngineering_Assignment1.svg?token=femJf7L7wQgHi3cCjt9R&branch=main)
-[![Coverage Status](https://coveralls.io/repos/github/<your_username>/<your_repo>/badge.svg?branch=main)](https://coveralls.io/github/<your_username>/<your_repo>?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/meghapatil/SoftwareEngineering_Assignment1/badge.svg?branch=main)](https://coveralls.io/github/meghapatil/SoftwareEngineering_Assignment1?branch=main)
 
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
