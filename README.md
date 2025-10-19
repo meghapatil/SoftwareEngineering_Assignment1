@@ -1,5 +1,9 @@
 # Polls App
 
+[![Build Status](https://app.travis-ci.com/<your_username>/<your_repo>.svg?branch=main)](https://app.travis-ci.com/<your_username>/<your_repo>)
+[![Coverage Status](https://coveralls.io/repos/github/<your_username>/<your_repo>/badge.svg?branch=main)](https://coveralls.io/github/<your_username>/<your_repo>?branch=main)
+
+
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![Django](https://img.shields.io/badge/django-5.2.7-green)
 ![AWS Elastic Beanstalk](https://img.shields.io/badge/AWS-Elastic%20Beanstalk-orange)
