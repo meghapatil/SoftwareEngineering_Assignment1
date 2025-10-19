@@ -2,38 +2,13 @@ language: python
 python:
   - "3.10"
 
-# Only build on main/master branch
-branches:
-  only:
-    - main
-    - master
-
-# Set up environment
 install:
   - pip install -r requirements.txt
   - pip install black flake8 coverage coveralls
 
-# Commands to run before tests
 before_script:
   - black --check .
   - flake8 .
 
-# Run tests and coverage
 script:
   - coverage run manage.py test
-
-# Send coverage results to coveralls
-after_success:
-  - coveralls
-
-# Deploy to AWS Elastic Beanstalk after tests pass
-deploy:
-  provider: elasticbeanstalk
-  access_key_id: $AWS_ACCESS_KEY_ID
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
-  region: "us-east-1"
-  app: "your-eb-app-name"
-  env: "your-eb-env-name"
-  bucket_name: "your-eb-s3-bucket"
-  on:
-    branch: main
