@@ -26,15 +26,15 @@ script:
 after_success:
   - coveralls
 
-# Deploy to AWS Elastic Beanstalk after tests pass
-# deploy:
-#   provider: elasticbeanstalk
-#   access_key_id: $AWS_ACCESS_KEY_ID
-#   secret_access_key: $AWS_SECRET_ACCESS_KEY
-#   region: "us-east-1"
-#   app: "your-eb-app-name"
-#   env: "your-eb-env-name"
-#   bucket_name: "your-eb-s3-bucket"
-#   on:
-#     branch: main
+#Deploy to AWS Elastic Beanstalk after tests pass
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  region: us-east-2
+  app: polls-app                           
+  env: Polls-app-env                        
+  bucket_name: elasticbeanstalk-us-east-2-083252235849
+  on:
+    branch: main
 
