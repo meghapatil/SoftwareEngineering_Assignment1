@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.13"
+  - "3.13.7"
 
 # Only build on main/master branch
 branches:
@@ -24,8 +24,6 @@ script:
 
 # Send coverage results to coveralls
 after_success:
-  - - export COVERALLS_SERVICE_NAME=travis-ci
-  - export COVERALLS_BRANCH=main
   - coveralls
 
 # Deploy to AWS Elastic Beanstalk after tests pass
