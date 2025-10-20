@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.13.7"
+  - "3.10"
 
 # Only build on main/master branch
 branches:
