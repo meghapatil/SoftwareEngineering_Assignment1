@@ -24,7 +24,9 @@ script:
 
 # Send coverage results to coveralls
 after_success:
-  - coveralls --service=travis-ci --branch=main
+  - - export COVERALLS_SERVICE_NAME=travis-ci
+  - export COVERALLS_BRANCH=main
+  - coveralls
 
 # Deploy to AWS Elastic Beanstalk after tests pass
 # deploy:
