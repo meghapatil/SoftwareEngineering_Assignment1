@@ -15,7 +15,7 @@ The **Polls App** is a simple Django application that allows users to view polls
 It is deployed on **AWS Elastic Beanstalk** with **SQLite** as the backend database.
 
 **Deployed URL:**  
-[Polls App Live](http://polls-se-env.eba-2vxmtbk5.us-west-2.elasticbeanstalk.com/polls/)
+[Polls App Live](http://polls-app-env.eba-mpqj53b7.us-east-2.elasticbeanstalk.com/polls/)
 
 ---
 
