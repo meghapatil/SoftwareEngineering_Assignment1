@@ -4,9 +4,10 @@ import django
 from polls.models import Question, Choice
 from django.utils import timezone
 
-os.environ["SQLITE_PATH"] = "/var/app/data/db.sqlite3"
+# Use the EB environment variable for SQLITE_PATH
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "SEassignment1.settings")
 django.setup()
+
 q1, _ = Question.objects.get_or_create(
     question_text="Which framework do you like most?",
     defaults={"pub_date": timezone.now()},
